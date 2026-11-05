@@ -3,3 +3,14 @@
 
 /* The deliberately simple notice cards only display receipt metadata; they do not implement an ownership-claim workflow. */
 .handover-note{font-size:10px;line-height:1.45;color:#746e61;margin:2px 0 10px;padding-top:4px;}
+
+/* Usability improvements */
+.filter-help{font-size:12px;line-height:1.6;color:#52554d;margin:0 0 16px}
+.recovery-guide,.no-results{background:#fff;border:1px solid #c7cfc5;border-radius:6px;padding:16px;font-size:13px;line-height:1.6;color:#343f39;margin:0 0 20px}
+.no-results h3{margin:0}.no-results button{padding:10px 14px;background:#ffdb64;border:1px solid #a68b38;border-radius:4px}
+.handover-note{padding:12px;border:1px solid #b9c8bf;border-left:4px solid #426c55;background:#edf6ef;color:#284c36;font-size:12px;font-weight:700;line-height:1.6}
+.handover-note.reported{background:#fff2d5;border-color:#aa7a27;color:#644713}
+.handover-note.released{background:#eaf0fa;border-color:#7182a1;color:#344461}
+.sticky .handover-note p{font-size:12px;min-height:0;color:inherit;font-weight:400;margin:6px 0 0}
+.sticky p{font-size:12px;color:#575248}.sticky-top{color:#75643e}.sticky-bottom{font-size:11px;color:#6d6049}
+button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid #255b91;outline-offset:3px}

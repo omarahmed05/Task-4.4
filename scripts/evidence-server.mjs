@@ -1,0 +1,2 @@
+﻿import http from 'node:http';import fs from 'node:fs';import path from 'node:path';
+for(const [port,root] of [[5180,'dist'],[5181,'evidence/before/dist']])http.createServer((req,res)=>{let p=path.join(root,decodeURIComponent(req.url.split('?')[0]));if(!path.extname(p))p=path.join(root,'index.html');try{res.setHeader('Content-Type',p.endsWith('.js')?'text/javascript':p.endsWith('.css')?'text/css':'text/html');res.end(fs.readFileSync(p));}catch{res.statusCode=404;res.end();}}).listen(port,'127.0.0.1',()=>console.log(`http://127.0.0.1:${port}`));

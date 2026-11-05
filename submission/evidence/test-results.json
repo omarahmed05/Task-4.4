@@ -1,0 +1,19 @@
+{
+  "results": [
+    "Empty search displays recovery guidance",
+    "Clear filters restores 13 reports",
+    "Invalid submission shows specific title error",
+    "Found report publishes successfully",
+    "Report persists after reload",
+    "Duplicate title and location are rejected",
+    "Failed submission preserves entries",
+    "Own report can be edited",
+    "Other students reports do not offer editing",
+    "Search and status filters combine",
+    "Category filter combines with search and status",
+    "Mobile board fits viewport",
+    "Mobile form fits viewport",
+    "No browser JavaScript errors"
+  ],
+  "errors": []
+}
